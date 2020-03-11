@@ -1,0 +1,23 @@
+{
+  "name": "keto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaneshKoirala/Super-Affiliate-System.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaneshKoirala/Super-Affiliate-System/issues"
+  },
+  "homepage": "https://github.com/GaneshKoirala/Super-Affiliate-System#readme",
+  "engines": {
+    "node": "12.13.0"
+  }
+}
