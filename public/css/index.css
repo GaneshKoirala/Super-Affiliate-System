@@ -1,0 +1,115 @@
+@font-face {
+  font-family: NunitoSans;
+  src: url(../../assets/fonts/NunitoSans-Black.ttf);
+}
+
+@font-face {
+  font-family:  NunitoSans;
+  src: url(../../assets/fonts/NunitoSans-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+
+@font-face {
+  font-family:  NunitoSans;
+  src: url(../../assets/fonts/NunitoSans-Light.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family:  NunitoSans;
+  src: url(../../assets/fonts/NunitoSans-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family:  NunitoSans;
+  src: url(../../assets/fonts/NunitoSans-SemiBold.ttf);
+  font-weight: 600;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+  user-select: none;
+  font-family: NunitoSans, open-sans, sans-serif;
+  font-weight: 400;
+  background-color: #212d3b;
+  color: #FFFFFF;
+  line-height: 2.8rem;
+}
+
+main{
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px 0;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  justify-content: center;
+  text-align: center;
+  background: url(../../assets/images/bg-large.jpg) no-repeat;
+  background-size: 100% auto;
+}
+
+#slogan{
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+#form{
+  align-self: center;
+}
+#email{
+  margin-bottom: 15px;
+}
+input[type="email"]{
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 2rem;
+  width: 100%;
+  color: #0284fe;
+  border-bottom: 1px solid white;
+}
+#submit{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.9rem;
+  padding: 15px 4rem 15px 4rem;
+  border-radius: 250px;
+  background: linear-gradient(to top, #d95e0a 0%, #fbe919 100%);
+  color: #010101d2;
+  cursor: pointer;
+}
+
+@keyframes submit_click{
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(0.9);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+@media screen and (max-width: 768px){
+  html{
+    font-size: 11px;
+  }
+  main{
+    padding: 100px 0;
+    background: url(../../assets/images/bg-small.jpg) no-repeat;
+    background-size: 100% auto;
+  }
+}
